@@ -4,8 +4,8 @@
 
 Patches source:
 
-https://github.com/microg/android_packages_apps_GmsCore/tree/master/patches
-https://github.com/microg/android_packages_apps_UnifiedNlp/tree/master/patches
+* https://github.com/microg/android_packages_apps_GmsCore/tree/master/patches
+* https://github.com/microg/android_packages_apps_UnifiedNlp/tree/master/patches
 
 __Credits to mar-v-in and others for the patches__
 
