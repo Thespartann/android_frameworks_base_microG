@@ -3938,8 +3938,7 @@ public class PackageManagerService extends IPackageManager.Stub
                     ? Collections.<String>emptySet() : permissionsState.getPermissions(userId);
 
             PackageInfo packageInfo = mayFakeSignature(p, PackageParser.generatePackageInfo(p, gids, flags,
-                ps.firstInstallTime, ps.lastUpdateTime, permissions, state, userId),
-                permissions);
+	            ps.firstInstallTime, ps.lastUpdateTime, permissions, state, userId), permissions);
 
             if (packageInfo == null) {
                 return null;
